@@ -1,0 +1,212 @@
+/* h2:hover{
+    color: red
+}
+h2[class=subtitle]{
+    color: =orange;
+}
+.title{
+    color: blue;
+}
+#ckc{
+    color: green;
+}
+#contact-us{
+  color: green;
+}   
+.subtitle{
+    color: black;
+} 
+#about{
+    color: blue;}
+/*  li:first-child{ */
+    /* color: blue; */ 
+/* } */
+/* #google-link:link{
+    color: grey;
+}
+#google-link:visited{
+    color: red;
+}  */
+/* textarea + button{
+    color: purple;
+} */
+/* ul>li{
+    color: red ;
+} */
+/* ul li{
+    color: green;
+/* } 
+attribute selectors how to put a border in two images */
+/* img[src="sam.png"]{
+    border:  green;
+} */
+  /* how to put a border 
+#border{
+      border: 30px solid yellow;
+      padding: 30px;
+} */
+
+/* white space article selector */
+   /* h2[class~=article-subtitle]{
+  background-color: green;
+   }  */
+   body{
+       /* how to put background images using url
+       background: url("data:image/jpeg;base64,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"); */
+   /* background:linear-gradient(to right ,rgb(59, 187, 176),rgb(24, 136, 117)); */
+   background: linear-gradient(to left,rgb(99, 99, 29),rgb(28, 38, 153));
+     font-weight: 400;
+    font-family:'lato';
+   /* text-decoration: overline; */
+   
+   
+}
+   #title{
+       color: rgb(17, 26, 25);
+       font-weight: 400;
+       font-style: italic;
+   }
+   .subtitle{
+      color:rgb(26, 26, 17); 
+   }  
+   #weizman-image{
+       height: 300px;
+       width: 60vw;
+       /* border:size style color ; */
+       border: 2px dotted  rgb(26, 26, 17);
+       /* padding:top right left bottom; */
+       /* is used when you want to leave space at the top bottom in image or text */
+       /* margin:30px 40px;
+       padding:30px 20px; */
+       /* to put width and height on the same line */
+       /* background-size:20px 30px; */
+       /* float:right; */
+       
+   }
+   .link{
+       text-decoration: underline;
+       font-family:normal;
+       
+   }
+   #italic{
+       font-style:normal;
+   }
+  
+   /* #image{
+       height: normal;
+       width: normal;
+       float:left;
+       
+   } */
+ /* .container{
+     background-color:rgb(36, 130, 39;
+     margin: 10px;
+     display: flex;
+ }
+ .container-item{
+     background-color: rgb(red, green, blue);
+     color: white;
+     font-size: 25px;
+     text-align: center;
+     width: 70px;
+     line-height: 50px;
+     margin: 10px;
+ } */
+
+ .container{
+background-color:white;
+margin: 10px;
+display: flex;
+height: 300px;
+flex-direction:row;
+flex-wrap: wrap;
+justify-content:center;
+/* justify-content: space-around; */
+justify-content: center;
+align-items: center;
+ }
+ .container-item{
+     background-color:rgb(36,130,39);
+     color: white;
+     line-height: 25px;
+     font-size: 25px;
+     text-align: center;
+     width: 70px;
+     margin: 10px; 
+    }
+.grid-container{
+    background-color:white;
+    margin:10px;
+    height: 300px;
+
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: aut auto auto ;
+    /* grid-row-gap:3px;
+    grid-column-gap:400px ;
+    grid-gap: 3px 40px;
+    /* /* justify-content: left; */
+     /* align-content: space-between;   */
+}
+.grid-item{
+color: black;
+font-size: 25px;
+text-align: center;
+
+width: 70px;
+line-height: 40px;
+margin: 10px;
+}
+.submit-button{
+margin: 20px 10px;
+padding: 10px 15px;
+border-radius: 10pt;
+text-decoration: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+/* it increases the weight of the text(size) */
+font-weight: 600;
+color:black;
+background:green;
+transition: all 500ms ease;
+ /* transform will make the button to move when you click it */
+ transform: translate(50px,30px);
+ /* is used when you want the button to be larger in size/small in size when you click on it */
+ /* transform: scale(1.4); */
+
+}
+.submit-button:hover{ 
+    background:rgb(147 187 255);
+    font-size: 25px;
+    text-align: center;
+    
+    width: 70px;
+    line-height: 40px;
+    margin: 10px;
+   
+   
+}
+.form{
+    display: grid;
+    align-content: space-between;
+    font-size: 25px;
+    text-align: center;
+    
+    width: 70px;
+    line-height: 40px;
+    margin: 20px;
+   }
+/* is used for animations */
+@keyframes translate-element{
+
+}
+/* animation */
+#about-me{
+/* animation-name: red-to-black;
+animation-duration: 4s;
+animation-timing-function:linear;
+animation: delay -2s;
+animation-iteration-count:2 ;
+animation-direction: reverse; */
+-ms-animation: red-to-black 4s linear 0s 2 alternate-reverse;
+}
+ 
